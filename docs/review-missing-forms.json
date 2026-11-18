@@ -1,0 +1,97 @@
+{
+ "generatedAt": "2026-11-03 22:03",
+ "note": "kaikki/Wiktionary 标了 form-of 但原形不在当前词库；reviewed 是已逐条复核、判定不补原形的条目（附理由）",
+ "items": [],
+ "reviewed": [
+  {
+   "de": "betrunken",
+   "base": "betrinken",
+   "kind": "过去分词",
+   "why": "喝醉的（形容词已独立，betrinken 罕用）"
+  },
+  {
+   "de": "dringend",
+   "base": "dringen",
+   "kind": "过去分词",
+   "why": "紧急的（形容词已独立，dringen 义不同）"
+  },
+  {
+   "de": "vertraut",
+   "base": "vertrauen",
+   "kind": "过去分词",
+   "why": "熟悉的（das Vertrauen 已在库，动词与名词同形会顶掉查词）"
+  },
+  {
+   "de": "verflucht",
+   "base": "verfluchen",
+   "kind": "过去分词",
+   "why": "该死的（感叹用法，verfluchen 罕用）"
+  },
+  {
+   "de": "überlegt",
+   "base": "überlegen",
+   "kind": "过去分词",
+   "why": "深思熟虑的（形容词已独立，überlegen 另义）"
+  },
+  {
+   "de": "kompliziert",
+   "base": "komplizieren",
+   "kind": "过去分词",
+   "why": "复杂的（形容词已独立）"
+  },
+  {
+   "de": "eingesperrt",
+   "base": "einsperren",
+   "kind": "过去分词",
+   "why": "被关押的（动词 einsperren 低频）"
+  },
+  {
+   "de": "lebend",
+   "base": "leben",
+   "kind": "过去分词",
+   "why": "活着的（das Leben 已在库，动词 leben 同形会顶掉查词）"
+  },
+  {
+   "de": "verzweifelt",
+   "base": "verzweifeln",
+   "kind": "过去分词",
+   "why": "绝望的（形容词已独立）"
+  },
+  {
+   "de": "berühmt",
+   "base": "berühmen",
+   "kind": "过去分词",
+   "why": "出名的（berühmen 已废弃）"
+  },
+  {
+   "de": "befreundet",
+   "base": "befreunden",
+   "kind": "过去分词",
+   "why": "友好的（动词是 sich befreunden，与库内单名词头不同形）"
+  },
+  {
+   "de": "bezaubernd",
+   "base": "bezaubern",
+   "kind": "过去分词",
+   "why": "迷人的（现在分词作形容词）"
+  },
+  {
+   "de": "verknallt",
+   "base": "verknallen",
+   "kind": "过去分词",
+   "why": "迷恋的（口语，verknallen 不进学习队列）"
+  },
+  {
+   "de": "anmaßend",
+   "base": "anmaßen",
+   "kind": "过去分词",
+   "why": "傲慢的（现在分词作形容词）"
+  },
+  {
+   "de": "erstarrt",
+   "base": "erstarren",
+   "kind": "过去分词",
+   "why": "僵硬的（erstarren 低频）"
+  }
+ ]
+}

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html data-page-node-id="B2SccK3UWjBYGwilgML62e" lang="zh-CN">
+<head data-page-node-id="AvKrFfZt9hH9fLXKXOwjBn">
+<!--pnid:o7J0FzDZxVulHU9K7HCUaM--><!-- 页面平台注入脚本已移除：离线单文件不引入任何外部请求 -->
+<meta data-page-node-id="6a7D0aXWv8E5sUBAskbxTV" charset="UTF-8">
+<meta data-page-node-id="dnG4nbc3UaWYmow64qtxfb" content="width=device-width, initial-scale=1.0" name="viewport">
+<meta name="theme-color" content="#2c3a55">
+<meta name="description" content="LinguaDE：面向 TestDaF / DSH / Telc / 歌德考试的 AI 多模态德语学习系统，19 个自适应学习模块，离线优先。">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%232c3a55'/%3E%3Ctext%20x='32'%20y='43'%20font-family='Arial,sans-serif'%20font-size='28'%20font-weight='700'%20text-anchor='middle'%20fill='%23fff'%3EDE%3C/text%3E%3Ccircle%20cx='52'%20cy='12'%20r='5'%20fill='%23b08430'/%3E%3C/svg%3E">
+<title data-page-node-id="xsy1qfNfXvCmrs165fsKFK" data-pnid-children="PIyqbY5cyTu7M6yvnpNies">LinguaDE · AI 多模态双语留学自适应学习陪伴系统</title>
+<link data-page-node-id="mqPTk8mYfMrc0M3d9IlFnJ" href="src/styles.css" rel="stylesheet">
+</head>
+<body data-page-node-id="ytWJ79PYV52II2f7puqUNu">
+<a class="skip-link" href="#view">跳至主要内容</a>
+
+<!-- 登录门禁：仅在能连到同源 /api 时启用（file:// 单文件版与纯静态托管不受影响） -->
+<div id="authGate" class="auth-gate" hidden>
+  <div class="auth-card">
+    <div class="auth-brand"><span class="brand-logo">DE</span><strong>LinguaDE</strong></div>
+    <p class="hint" id="authSub">请登录后继续</p>
+    <div class="form-row"><label for="authUser">用户名</label>
+      <input id="authUser" type="text" autocomplete="username" placeholder="3–32 位，中英文/数字/下划线"></div>
+    <div class="form-row"><label for="authPass">密码</label>
+      <input id="authPass" type="password" autocomplete="current-password" placeholder="至少 8 位"></div>
+    <div class="form-row" id="authInviteRow" hidden><label for="authInvite">邀请码</label>
+      <input id="authInvite" type="text" placeholder="向站点管理员索取"></div>
+    <div class="btn-row">
+      <button class="btn" id="authSubmit">登录</button>
+      <button class="btn btn-ghost" id="authSwitch">没有账号？注册</button>
+    </div>
+    <p class="hint" id="authMsg"></p>
+  </div>
+</div>
+
+<div data-page-node-id="WEzCZ4ThnonFwoedChHMAe" id="app-root">
+
+  <!--pnid:WILYsMev8TK6gWv71w7FoW--><!-- 顶部导航 -->
+  <header data-page-node-id="kA0q1ysOKCLfVUo2ldULib" class="topbar">
+    <button class="icon-btn" id="menuBtn" title="菜单" aria-label="打开导航菜单" aria-controls="sidebar" aria-expanded="false"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+    <div data-page-node-id="7sSSSkl8SaCKicRj5r16Cz" class="brand">
+      <div data-page-node-id="D0mdx1pKgWkBsxRbvWYL1c" class="brand-logo"><!--pnid:2Lwf7ymsJLIAP5vVMUORqP-->DE</div>
+      <div data-page-node-id="VG9MQdqxCemiWc4zboYMwt" class="brand-text">
+        <strong data-page-node-id="bskdavabVCe2VPmFtx8WdW"><!--pnid:a2vsuWtLOp5zLNM9b0cEtJ-->LinguaDE</strong>
+      </div>
+    </div>
+    <div data-page-node-id="7bGqsi9iFJg88DvOU7Jbry" class="topbar-right">
+      <div data-page-node-id="NgJDH5H6GJycf7toxNExTq" class="streak-chip" id="streakChip" title="连续学习天数">
+        <span data-page-node-id="jkH5Woadi8kQB8y0ey1aDR" class="flame"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg></span><span data-page-node-id="1oNi9NpPH5rtfewVquJgG4" id="streakVal"><!--pnid:n5P6DMrGcWcG7hpWOyYJKZ-->0</span><!--pnid:5aayb5iqKZ7KcJ4kjxyrwD--> 天
+      </div>
+      <div data-page-node-id="bxYejum2DWrCvPnTpWhvF9" class="level-chip" id="levelChip" title="当前目标等级"><!--pnid:CVxnv5jrZgPsU4tPs1SE7i-->目标 TestDaF</div>
+      <button data-page-node-id="mzNehi1RZ9bcZuDkhQSZLJ" class="icon-btn" id="themeBtn" title="切换主题" aria-label="切换浅色或深色主题"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3v18" /><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
+      <button data-page-node-id="cOB0NFFPHbihhGJtK4uLWi" class="icon-btn" id="settingsBtn" title="设置" aria-label="打开设置"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg></button>
+    </div>
+  </header>
+
+  <div data-page-node-id="LC7LJEVOmfn3My5OqaPc2w" class="layout">
+
+    <!--pnid:7fM6NJ0u3AKxakin55WJUZ--><!-- 侧边导航 -->
+    <nav data-page-node-id="YSbsWWrKAnGp6kmSFjsNI4" class="sidebar" id="sidebar">
+    <!--pnid:navplaceholder--><!-- 导航由 src/core/router.js 依 core/manifest.js 动态渲染 -->
+      <div data-page-node-id="AvqLNoa26IHLcUaVa00OqF" class="nav-foot">
+        <button data-page-node-id="5LpmHJlJr86MWqq8fQ7mUs" class="btn btn-ghost btn-block" id="syncBtn"><!--pnid:6OObxTB6VRVc4paJEsvdoq--><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/></svg> 同步到学习云</button>
+      </div>
+    </nav>
+
+    <!--pnid:GAtx69Ww4E1WUp087HV0P5--><!-- 主内容 -->
+    <main data-page-node-id="pwF4atjCea12TlEn1pLHpl" class="content" id="view" tabindex="-1"></main>
+  </div>
+
+  <div data-page-node-id="qTASCYDJ3GC1U05NKpADmp" class="toast-wrap" id="toastWrap" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- 移动端导航遮罩（配合侧栏抽屉化，桌面端隐藏） -->
+  <div class="nav-mask" id="navMask"></div>
+
+  <!-- 移动端快捷导航：只放最高频四步；学练用底部抽屉承载全部学习模块 -->
+  <nav class="mobile-tabs" id="mobileTabs" aria-label="移动端快捷导航">
+    <a class="mobile-tab" href="#home" data-mobile-route="home"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="m3 10 9-7 9 7v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg><span>今天</span></a>
+    <a class="mobile-tab" href="#learn" data-mobile-route="learn" aria-haspopup="dialog" aria-expanded="false"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg><span>学练</span></a>
+    <a class="mobile-tab" href="#notebook" data-mobile-route="notebook"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M16 2v20M2 6h4M2 10h4M2 14h4M2 18h4"/></svg><span>复盘</span></a>
+    <a class="mobile-tab" href="#plan" data-mobile-route="plan"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/><path d="m9 16 2 2 4-4"/></svg><span>计划</span></a>
+  </nav>
+  <div class="learn-mask" id="learnMask" hidden></div>
+  <section class="learn-sheet" id="learnSheet" hidden role="dialog" aria-modal="true" aria-labelledby="learnSheetTitle">
+    <div class="learn-sheet-head">
+      <div><h2 id="learnSheetTitle">学练</h2><p>选一个模块开始；今日任务会保留进度。</p></div>
+      <button type="button" class="icon-btn" id="learnClose" aria-label="关闭学练面板"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+    </div>
+    <div id="learnSheetBody"></div>
+  </section>
+
+  <!--pnid:77AyBZwNfqqjt7azGzv5M9--><!-- 设置抽屉 -->
+  <div data-page-node-id="aTlV5ErYSvGPGB7DeIgQYk" class="drawer-mask" id="drawerMask"></div>
+  <aside data-page-node-id="V2YSdBFlLrqAwnZL5qqFDy" class="drawer" id="settingsDrawer">
+    <div data-page-node-id="SnRVupiUGsWRGhRltoNNip" class="drawer-head">
+      <h3 data-page-node-id="FGZcX7OtHEGpK31K8dLOCd"><!--pnid:QrQJvcmJYgvsrhoiLmyObB-->设置</h3>
+      <button data-page-node-id="m2kUM4ayBvvLY7u0eipn7k" class="icon-btn" id="closeDrawer" aria-label="关闭设置" title="关闭"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+    </div>
+    <div data-page-node-id="aTgVPoKN3yP9KplJryr7cF" class="drawer-body">
+      <div class="form-row">
+        <label>当前账号</label>
+        <div class="acct-row">
+          <strong id="acctName">未登录</strong>
+          <span class="hint" id="acctBadge"></span>
+          <button class="btn btn-ghost" id="logoutBtn" type="button" hidden>退出登录</button>
+        </div>
+      </div>
+      <div class="divider"><span>学习设置</span></div>
+      <div data-page-node-id="Z2k535HG6GTGBEuVWbaSa8" class="form-row">
+        <label data-page-node-id="XZUVxBl1apyJWp7LZuqQxj"><!--pnid:xbEVALzz5QAG8mdw6y0oF4-->学习者昵称</label>
+        <input data-page-node-id="04GDf0igSP43alxrZ7DrwK" id="cfgName" placeholder="例如：Xiaoming" type="text">
+      </div>
+      <div data-page-node-id="bM1YDzLR9uRlL9zCPE5mEP" class="form-row">
+        <label data-page-node-id="d0PUOM8BJAfXYKBVcCUwyb"><!--pnid:0p960TGEH4wo7XG2zdP09K-->目标考试</label>
+        <select data-page-node-id="nMtGSzVjkc9AoXKYimkFa6" id="cfgExam">
+          <option data-page-node-id="ce2QJnT0tnm2tEShbtA3xS" value="TestDaF"><!--pnid:u2puxGbCnsiKXmWKXkwH5p-->TestDaF（德福）</option>
+          <option data-page-node-id="uSd1DnN2xe6RKlAfRs7bYm" value="DSH"><!--pnid:Cmwfawqu94tsuiectKn2lW-->DSH</option>
+          <option data-page-node-id="7XPlOUPLXHIfblmptGNxbF" value="Telc"><!--pnid:XJEyC0iiarBkFpUQcRGdZl-->Telc Deutsch</option>
+          <option data-page-node-id="mNtk6PskffTfBG2Ipu8hzd" value="Goethe"><!--pnid:WVRrQP0Bb0xDotIMUJujet-->歌德学院考试</option>
+        </select>
+      </div>
+      <div data-page-node-id="67nQXI1yRADx9p55czk5hX" class="form-row">
+        <label data-page-node-id="f6N6EEQeZ0cVuSoRZsAZIz"><!--pnid:BfLX9XDrftOmwzKu2yDmAq-->当前起点</label>
+        <select data-page-node-id="uYYmw8J6AyKDVKhRK37PCB" id="cfgLevel">
+          <option data-page-node-id="9vVZneBiELVCuDgaMJpAFI" value="A1"><!--pnid:5VJGRrvbGmo6aduHrK8CYR-->A1 零基础</option>
+          <option data-page-node-id="hVZw5I9zWyROgCie8kA8Bt" value="A2"><!--pnid:NID7PCglpfqtrtzS1wuSih-->A2 初级</option>
+          <option data-page-node-id="YD4S6dILTFtbMF9mkHtfHK" selected value="B1"><!--pnid:K4E1fhW0KOkytEBuZE5lk2-->B1 进阶</option>
+          <option data-page-node-id="IaehhyNn61SNMDy8LH7yar" value="B2"><!--pnid:FQARCWkqxIabp4kXah0MWA-->B2 中高级</option>
+          <option value="C1">C1 高级</option>
+          <option value="C2">C2 精通</option>
+        </select>
+      </div>
+      <div data-page-node-id="Dy9XEwDXn9IBYhQ8f9l7AZ" class="form-row">
+        <label data-page-node-id="PTQ6Ii2GPGZZzyBwnN5zdr"><!--pnid:4YTWro2M4BviB2dGM05dz0-->每日目标（分钟）</label>
+        <input data-page-node-id="tPcahV23gzlKhFmecaJHYb" id="cfgDaily" max="240" min="5" step="5" type="number" value="30">
+      </div>
+      <div data-page-node-id="2ke3D9gHnUeHdNRhq5sx3z" class="form-row">
+        <label data-page-node-id="tErlae1lVi2s2pwnZbD7vX"><!--pnid:GoONgrtQQonqTNg5l0YRSa-->考试日期（用于倒排调度）</label>
+        <input data-page-node-id="j0IAem5iyjmTWXVAOJ7XwB" id="cfgExamDate" type="date">
+      </div>
+      <div data-page-node-id="Ruk08MrXnwMuI3x5zpbxbr" class="form-row">
+        <label data-page-node-id="vkHOY8Y6wBYYg380Ml7wV7"><!--pnid:Dmr0GX9WBHF3jyaCtiIBdA-->界面语言</label>
+        <select data-page-node-id="7hiP6L15b1mu5khI1nC3g7" id="cfgLang">
+          <option data-page-node-id="EPQBNosu5Xx1p7KfDMetX1" value="zh"><!--pnid:53KGgZ3gfD7kEwpD5sjbrr-->中文为主</option>
+          <option data-page-node-id="b3ojwQVcBEov8ouJthAzTF" value="bilingual"><!--pnid:hA6NY9E0q5M9KwSMGcE8lB-->中德双语</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="cfgRetention">复习回忆目标（70–97%） <b id="cfgRetentionVal">90%</b></label>
+        <input id="cfgRetention" type="range" min="70" max="97" step="1" value="90">
+        <div class="hint" style="margin:0">目标越高，HLR 越早提醒复习、队列越密；仅调整提示阈值，不改变已有间隔记录。</div>
+      </div>
+
+      <div id="adminBox" hidden>
+      <div class="divider"><span>AI 配置（仅管理员）</span></div>
+      <p class="hint">保存到服务器，全站立即生效、无需重启；密钥以打码形式回显，浏览器拿不到原文。</p>
+
+      <div class="cfg-group">
+        <div class="cfg-title">大模型（对话 / 纠错 / 面试 / 拍照批改共用）</div>
+        <div class="btn-row" style="margin:6px 0 8px">
+          <button class="btn btn-primary btn-sm" id="llmTest" type="button">检测连接</button>
+        </div>
+        <div class="hint" id="llmTestOut" style="margin:0 0 10px;line-height:1.6"></div>
+        <div class="form-row">
+          <label>接口类型</label>
+          <select id="cfgApiStyle">
+            <option value="openai">OpenAI 兼容（Bearer · 自动补 /chat/completions）</option>
+            <option value="azure">Azure OpenAI（api-key · deployment · api-version）</option>
+            <option value="custom">自定义完整地址（原样请求 · 华为云 MaaS / 网关）</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label>服务地址</label>
+          <input id="cfgApiBase" placeholder="https://api.example.com/v1" type="text">
+        </div>
+        <div class="form-row">
+          <label>API Key</label>
+          <input id="cfgApiKey" placeholder="只保存到服务器，不回显原文" type="password">
+        </div>
+        <div class="form-row">
+          <label id="apiModelLabel">模型名称</label>
+          <input id="cfgModel" placeholder="需支持图片，如 qwen-vl-max / gpt-4o-mini" type="text">
+        </div>
+        <div class="form-row" id="rowApiVersion" hidden>
+          <label>API 版本</label>
+          <input id="cfgApiVersion" placeholder="2024-02-15-preview" type="text">
+        </div>
+        <p class="hint" id="apiStyleHint"></p>
+        <p class="hint">拍照批改会直接把图片交给这个模型，因此请选支持图片输入的型号。</p>
+      </div>
+
+      <div class="cfg-group">
+        <div class="cfg-title">华为云 OCR（可选，先识别再批改）</div>
+        <p class="hint">填齐后先用华为云把手写内容识别成文字，再交给大模型批改；不填或识别失败时自动回落到上面的视觉模型。</p>
+        <div class="form-row">
+          <label>Endpoint</label>
+          <input id="cfgOcrBase" placeholder="https://ocr.cn-north-4.myhuaweicloud.com" type="text">
+        </div>
+        <div class="form-row">
+          <label>Project ID</label>
+          <input id="cfgOcrProject" placeholder="我的凭证 → 项目列表里的项目 ID" type="text">
+        </div>
+        <div class="form-row">
+          <label>Access Key (AK)</label>
+          <input id="cfgOcrAk" placeholder="留空表示不修改" type="password">
+        </div>
+        <div class="form-row">
+          <label>Secret Key (SK)</label>
+          <input id="cfgOcrSk" placeholder="留空表示不修改" type="password">
+        </div>
+      </div>
+
+      <div class="cfg-group">
+        <div class="cfg-title">语音转写（可选）</div>
+        <p class="hint">保留华为云/昇腾 Whisper 与自建 Whisper 后端转写通道；未配置后端时回退到浏览器识别、本地录音回放或手动输入。</p>
+        <div class="form-row">
+          <label>转写服务地址</label>
+          <input id="cfgAsrBase" placeholder="华为云/后端 Whisper 服务地址" type="text">
+        </div>
+        <div class="form-row">
+          <label>访问 Key（可空）</label>
+          <input id="cfgAsrKey" placeholder="服务无鉴权可留空" type="password">
+        </div>
+      </div>
+
+      <p class="hint">未配置大模型时，系统自动降级为本地规则引擎（离线可用）；配置后对话、纠错、模拟面试由大模型驱动。</p>
+      <div class="btn-row"><button class="btn" id="admSave" type="button">保存到服务器</button></div>
+      </div>
+
+      <div data-page-node-id="x2QueMhTe5nfSh9Bc6U7QJ" class="divider"><span data-page-node-id="0jAkKtpdUQ9F6KVNC1CvxG"><!--pnid:Kf0XfWPiA6WAyYCvuBdiiK-->数据管理</span></div>
+      <div class="hint">本机自动保存最近一次每日快照，并在 IndexedDB 中维护当前副本。浏览器存储仍可能被用户清理，建议定期导出。</div>
+      <div class="backup-status" id="backupStatus" role="status" aria-live="polite">正在读取本机快照状态…</div>
+      <div class="backup-status" id="contentReportStatus" role="status" aria-live="polite">词条纠错反馈：暂无</div>
+      <div class="btn-row" id="contentReportRow" hidden>
+        <button class="btn btn-ghost" id="exportReportsBtn">导出词条纠错反馈</button>
+      </div>
+      <div class="form-row" style="display:flex;align-items:center;gap:8px">
+        <input id="cfgNotify" type="checkbox" style="width:auto">
+        <label for="cfgNotify" style="margin:0;font-size:12.5px;color:var(--text-2)">学习提醒（浏览器通知：隔日未复习时提醒我）</label>
+      </div>
+      <div class="form-row" style="display:flex;align-items:center;gap:8px">
+        <input id="cfgGamify" type="checkbox" style="width:auto">
+        <label for="cfgGamify" style="margin:0;font-size:12.5px;color:var(--text-2)">显示游戏化元素（XP / 连胜 / 每日任务）</label>
+      </div>
+      <div class="hint" style="margin:0 0 10px">备考用户可关闭；关闭后首页只保留到期复习、错题与考试倒计时。</div>
+      <div class="form-row" style="display:flex;align-items:center;gap:8px">
+        <input id="cfgSerif" type="checkbox" style="width:auto">
+        <label for="cfgSerif" style="margin:0;font-size:12.5px;color:var(--text-2)">阅读页正文用衬线字体（印刷品质感 · 实验性）</label>
+      </div>
+      <div data-page-node-id="jKjK4oe1QTyOwue4cahgBm" class="btn-row">
+        <button data-page-node-id="F5SaaqMlOsnRbY3j1FjZLC" class="btn btn-ghost" id="exportBtn"><!--pnid:NfnUplNmwQXXJZdGfL9HHU-->导出学习数据</button>
+        <button class="btn btn-ghost" id="restoreLocalBackupBtn">恢复本地快照</button>
+        <button class="btn btn-ghost" id="importBtn">导入（JSON / Anki TSV / 内容包）</button>
+        <button class="btn btn-ghost" id="pullBtn" title="从已配置的后端拉取最近一次同步快照">从云端恢复</button>
+        <button data-page-node-id="5VWICfn3At7VMGwvZfaOKt" class="btn btn-ghost danger" id="resetBtn"><!--pnid:bldPhygVi6pu19qeW7TXTA-->清空重置</button>
+        <button class="btn btn-ghost" id="exportTsvBtn" title="全词库（5,900+ 词）导出为 Anki 兼容 TSV">导出词库（Anki TSV）</button>
+        <button class="btn btn-ghost" id="importLxYamlBtn" title="LibreLingo 课程包（words: YAML 子集）→ 生词本">导入 LibreLingo 课程包</button>
+      </div>
+      <input type="file" id="importFile" accept=".json,.tsv,.txt" style="display:none">
+      <input type="file" id="lxYamlFile" accept=".yaml,.yml,.txt" style="display:none">
+      <div class="hint" style="margin-top:6px">Anki TSV 可直接导入 Anki；批量 .apkg 用 tools/anki_apkg.py --build 离线生成。LibreLingo 课程包仅吃 words: 列表子集。</div>
+      </div>
+    </div>
+  </aside>
+</div>
+
+<!--pnid:c01OYmnpSZdss9270K8oIz--><!-- 数据层 -->
+<script data-page-node-id="gJ5edGfph3wWBHqqdKbHY8" src="src/data/lexicon-1.js"></script>
+<script data-page-node-id="Mcu6tNRBXWqxKwbwL2hPBF" src="src/data/lexicon-2.js"></script>
+<script data-page-node-id="yVam7Gw7eeYxn6InNjz5F4" src="src/data/lexicon-3.js"></script>
+<script data-page-node-id="x0zWjpV2Hx9UK5BXzoniFH" src="src/data/lexicon-4.js"></script>
+<script data-page-node-id="3xO7i0Z5OcJqJu5MiyFBLq" src="src/data/lexicon-5.js"></script>
+<script src="src/data/lexicon-6.js"></script>
+<script src="src/data/lexicon-7.js"></script>
+<script src="src/data/lexicon-8.js"></script><!-- 自建 B2/C1/C2 + 专业词汇（100 条） -->
+<script src="src/data/lexicon-9.js"></script><!-- 开放词典机器对齐扩展（1428 条，待校对） -->
+<script src="src/data/lexicon-10.js"></script><!-- 考试词汇 A1–C2（german_exam.db 导入，AI 辅助待人工复核） -->
+<script src="src/data/lexicon-11.js"></script><!-- 高频扩展（德语词汇资料包 v4 合并，517 条） -->
+<script src="src/data/lexicon-human.js"></script><!-- 3.20 人工校订覆盖（唯一手工维护的复核文件） -->
+<script src="src/data/lexicon-review.js"></script><!-- 3.20 AI 辅助自动复核批次（tools/review_batch.py 生成） -->
+<script src="src/data/grammar-exam.js"></script><!-- 语法速查 A1–C2（german_exam.db grammar_points） -->
+<script src="src/data/placement-grammar.js"></script><!-- C1 定级测评：语法题库（A1–C1 各 6 题，手写） -->
+<script src="src/data/exam-plan.js"></script><!-- 考试结构速查（Goethe / telc / TestDaF） -->
+<script data-page-node-id="Gd0U7GWHAWYnVTEdv41OOs" src="src/data/corpus.js"></script>
+<script src="src/data/grammar-aeg.js"></script><!-- AEG 规则注错产物（tools/aeg_rules.py 生成） -->
+<script data-page-node-id="Wz6W2UPMVuWycLRqqqS5aN" src="src/data/rules.js"></script>
+<!--pnid:data-ext--><!-- 扩展语料：行业德语场景 / 方言口音知识 -->
+<script src="src/data/corpus-ext.js"></script>
+<script src="src/data/timeline.js"></script><!-- 留德时间轴（静态一般规划，不引入外部依赖） -->
+<script src="src/data/path.js"></script><!-- 学习路径 9 单元（内容映射现有素材） -->
+<!--pnid:core01--><!-- 核心层：事件总线 / 模块注册表 -->
+<script src="src/core/bus.js"></script>
+<script src="src/core/registry.js"></script>
+<script src="src/core/daily.js"></script><!-- B7 每日内容位：确定性轮换（每日一句/每日听力） -->
+<script src="src/core/srs.js"></script><!-- B2 FSRS 调度器：store 迁移与 engine 调度依赖 -->
+<script src="src/core/exercise.js"></script><!-- B3 题型注册表：纯目录，无运行时依赖 -->
+<script src="src/core/placement.js"></script><!-- C1 定级测评：分层抽样/判分/定级，纯函数 -->
+<script src="src/core/report.js"></script><!-- C2 阶段成效报告：collect/toMarkdown，口径 report-v1 -->
+<script data-page-node-id="ukzlsQFNt1NS84E0CMydvB" src="src/store.js"></script>
+<script data-page-node-id="C3xejQGGQfmdRe1PDs2Tkm" src="src/engine.js"></script>
+<script src="src/phonetics.js"></script><!-- 德语音素引擎：G2P + 音素级对齐（3.6.0） -->
+<script data-page-node-id="zt2EqQN0JEWwPLTABmBOuM" src="src/llm.js"></script>
+<script data-page-node-id="9gjdhVKk7QKQ1i6PEnJ4c9" src="src/charts.js"></script>
+<!--pnid:core02--><!-- 核心层：UI 与路由（依赖 store/engine/llm/charts，仅在启动时使用） -->
+<script src="src/core/ui.js"></script>
+<script src="src/core/lex.js"></script><!-- 轻量查词：词库词形还原 + 可选 AI 释义缓存 -->
+<script src="src/core/wordlink.js"></script><!-- 划词公共层：quick（对话）/ popover（阅读·听力·写作） -->
+<script src="src/core/timeline.js"></script><!-- 留德时间轴状态：自动点亮 + 手动勾选 -->
+<script src="src/core/content-packs.js"></script><!-- 部署形态内容包发现（构建时注入清单，避免 404） -->
+<script src="src/core/path.js"></script><!-- 学习路径：任务映射 + 检查点解锁 -->
+<script src="src/core/aigen.js"></script><!-- AI 出题：阅读 / 语法讲解 / B2-C2 词汇（无模型时明确提示） -->
+<script src="src/core/router.js"></script>
+<!--pnid:adapters--><!-- 适配层：后端 API / 语音转写（可选，未配置时自动降级） -->
+<script src="src/adapters/backend.js"></script>
+<script src="src/adapters/asr.js"></script>
+<script src="src/adapters/ocr-input.js"></script>
+<!--pnid:nbA7MpIl8aPeUiN6YBQusA--><!-- 模块 -->
+<!--modules:start-->
+<script src="src/modules/diagnose.js"></script>
+<script src="src/modules/vocab.js"></script>
+<script src="src/modules/grammar.js"></script>
+<script src="src/modules/chat.js"></script>
+<script src="src/modules/speech.js"></script>
+<script src="src/modules/listening.js"></script>
+<script src="src/modules/drill.js"></script>
+<script src="src/modules/weak.js"></script>
+<script src="src/modules/notebook.js"></script>
+<script src="src/modules/analytics.js"></script>
+<script src="src/modules/plan.js"></script>
+<script src="src/modules/syntax.js"></script>
+<script src="src/modules/writing.js"></script>
+<script src="src/modules/german.js"></script>
+<script src="src/modules/reading.js"></script>
+<script src="src/modules/aipractice.js"></script>
+<script src="src/modules/sandbox.js"></script>
+<script src="src/modules/interview.js"></script>
+<script src="src/modules/mockexam.js"></script>
+<script src="src/modules/placement.js"></script>
+<script src="src/modules/ocrgrade.js"></script>
+<script src="src/modules/phonetics.js"></script>
+<!--modules:end-->
+<script src="src/auth.js"></script><!-- 账号门禁 + 管理员配置（仅在可连到同源 /api 时生效） -->
+<!--content-packs:start--><!--content-packs:end-->
+<script data-page-node-id="eIY3V17paihye2VI1lql68" src="src/main.js"></script>
+</body>
+</html>

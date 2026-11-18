@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#1a7f9e"/>
+  <rect x="56" y="120" width="400" height="272" rx="28" fill="#ffffff" opacity="0.14"/>
+  <text x="256" y="316" font-family="'Segoe UI',system-ui,sans-serif" font-size="220" font-weight="700"
+        text-anchor="middle" fill="#ffffff">DE</text>
+  <circle cx="416" cy="112" r="34" fill="#ffb454"/>
+</svg>

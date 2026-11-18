@@ -1,0 +1,9 @@
+# 构建上下文瘦身：两个镜像只需要 dist/、deploy/、backend/
+# 防止 dist 里的 .bak-* 旧构建、数据库与密钥被 COPY 进镜像
+.git
+.env
+data/
+backup/
+.auto-deploy/
+dist/*.bak-*
+**/__pycache__

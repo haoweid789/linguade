@@ -1,0 +1,21 @@
+# LinguaDE 后端镜像（FastAPI + uvicorn）
+FROM python:3.12-slim
+
+WORKDIR /app
+
+# 先装依赖，利用镜像层缓存
+# 国内直连 pypi 只有 ~36 KB/s（实测），走阿里云镜像源；需换源用 --build-arg PIP_INDEX_URL= 覆盖
+ARG PIP_INDEX_URL=https://mirrors.aliyun.com/pypi/simple/
+ENV PIP_INDEX_URL=${PIP_INDEX_URL}
+ENV PIP_TRUSTED_HOST=mirrors.aliyun.com
+
+COPY backend/requirements.txt ./requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY backend/ ./backend/
+
+WORKDIR /app/backend
+EXPOSE 8000
+
+# 单进程即可满足演示/轻量场景；生产可加 --workers
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]

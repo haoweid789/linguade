@@ -1,0 +1,53 @@
+{
+  "lexicon-1.js": {
+    "count": 60,
+    "hash": "4f52fc5061f1d53bcc804c070c213d33e14565ac113cc23dba164e75211cf333"
+  },
+  "lexicon-2.js": {
+    "count": 60,
+    "hash": "a3a6b1314494f3dc001582766899ba5f110ea08b3f9bc88fd87e82a1037546e3"
+  },
+  "lexicon-3.js": {
+    "count": 58,
+    "hash": "5aa92c30640575375f17d3152c2a1e1647f3803028c6daed76a579ce658b061e"
+  },
+  "lexicon-4.js": {
+    "count": 61,
+    "hash": "d7ebed6ab4ee5a31ef73f8f92875ac11d9dd6a81245093d778e7997b665bb5e6"
+  },
+  "lexicon-5.js": {
+    "count": 68,
+    "hash": "33a39e8ea94e197bebd00348ef0311c256e6c2179ae03b54985d5d2863bd7d8e"
+  },
+  "lexicon-6.js": {
+    "count": 96,
+    "hash": "f2fa4d23fac25055ce46816f9dcb22ce7778bb8da1fdd1d4c21d391542ae3ad4"
+  },
+  "lexicon-7.js": {
+    "count": 69,
+    "hash": "b8c715a00d4d7f9c68c51c6cd794825f705dc07e5538f9456e5b699ba8a98cf8"
+  },
+  "lexicon-8.js": {
+    "count": 100,
+    "hash": "f70ceb4983b7ce9eba35392f38c8a2a67d99c152075880c03ed6a0cabefbf7b8"
+  },
+  "lexicon-9.js": {
+    "count": 1428,
+    "hash": "9a4a16d2f79d5bd085531890f7999474e429ed50a2a3443c0f349a1632b433f3"
+  },
+  "lexicon-10.js": {
+    "count": 3906,
+    "hash": "3b74f3edf03a5c10e0247c55eccbcbc1c095be6ee8b1c22e11f777a7bbbb3746"
+  },
+  "lexicon-11.js": {
+    "count": 517,
+    "hash": "65f27e05aee0a212f71b8b9aa8df68d76602db0c59de6cde3b5f1310fbea11a0"
+  },
+  "lexicon-human.js": {
+    "count": 0,
+    "words": []
+  },
+  "lexicon-review.js": {
+    "count": 0
+  }
+}

@@ -1,0 +1,1518 @@
+{
+ "pack": "speech",
+ "version": 1,
+ "generatedAt": "2026-10-25T22:53:57",
+ "source": "tatoeba",
+ "sourceUrl": "https://tatoeba.org",
+ "license": "Text: CC-BY 2.0 FR (Tatoeba); Audio: per-item audioLicense",
+ "count": 300,
+ "withAudio": 2,
+ "items": [
+  {
+   "id": "8243161",
+   "de": "Wir sind Ski fahren gegangen.",
+   "lic": "CC BY 2.0 FR",
+   "hasAudio": true,
+   "audioLicense": "CC BY 4.0",
+   "audioBy": "MisterTrouser"
+  },
+  {
+   "id": "8320468",
+   "de": "Ich sehe eine Tasse.",
+   "lic": "CC BY 2.0 FR",
+   "hasAudio": true,
+   "audioLicense": "CC BY 4.0",
+   "audioBy": "MisterTrouser"
+  },
+  {
+   "id": "10307116",
+   "de": "Haben Sie etwas zu essen?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "14042621",
+   "de": "Sie hat mir die Schuhe geklaut.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "5307390",
+   "de": "Ich möchte gerne wissen, wie man so malen kann.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "5984569",
+   "de": "Maria kann sehr gut nähen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "10078849",
+   "de": "Ich kenne ihn noch nicht einmal.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "6322422",
+   "de": "Unsere Körper bestehen aus Zellen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "2558850",
+   "de": "Ich hasse mich nicht.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "2662244",
+   "de": "Mein Vater war ein alter Mann geworden.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12671127",
+   "de": "Ihr habt mehr als nötig ausgegeben.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "2741480",
+   "de": "Mach dir nichts daraus!",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1928870",
+   "de": "Wo ist deine Tasche?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "7677721",
+   "de": "Ihr habt mein Telefon.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "4966377",
+   "de": "Man sagt, dass ich zu viel rede. Ist das wahr?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "2026782",
+   "de": "Warum kaufen Sie hier ein? Das ist alles teuer.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "13509485",
+   "de": "Denken Sie nicht, daß er Ihretwegen weggegangen ist!",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1130183",
+   "de": "Er hat uns angelogen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8677725",
+   "de": "Er benahm sich überraschend höflich.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "967436",
+   "de": "Sie trug einen blauen Rock.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "362718",
+   "de": "Es ist unhöflich, andere Leute anzustarren.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "10172907",
+   "de": "Den Rat, einen Anwalt einzuschalten, erhielt ich von Tom.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "6159134",
+   "de": "Meine Katze hat Hunger.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "3294327",
+   "de": "Ich bin der Besitzer dieses Restaurants.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "13906740",
+   "de": "Mary ist am anderen Ende der Stadt.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12605601",
+   "de": "Hast du dich schon verliebt?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "14073321",
+   "de": "Die Polizei hat den Wagen des Kriminellen verwanzt.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1401056",
+   "de": "Der Hund schläft hinter der Türe.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "612565",
+   "de": "Wir werden eine gute Ernte bekommen, wenn das schöne Wetter so anhält.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "522284",
+   "de": "Er arbeitet als Wachmann bei einem Lagerhaus.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "6538056",
+   "de": "Eine richtige Zeichensetzung stellt bei dieser Art von Sätzen immer eine Herausforderung dar.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "845023",
+   "de": "Das war das erste Mal, dass sie sie Tochter nannte.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1863410",
+   "de": "Mein Bruder sandte mir letzte Woche einen Brief.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "782580",
+   "de": "Diese Frau dort drüben ist Ana.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "3388565",
+   "de": "Im ganzen Roman gibt es nur sehr kurz gefasste Personenbeschreibungen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "13254493",
+   "de": "Russland heißt auf Russisch „Rossija“.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "11112636",
+   "de": "Tom ist nicht zu meiner Hochzeit gekommen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1549031",
+   "de": "Warum mögt ihr den Kaffee stark?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "2929587",
+   "de": "Hier ist ein in Teilen ähnlicher Satz.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "3804325",
+   "de": "Alle deine Katzen sind grau.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12406159",
+   "de": "Jemand muss deine Uhr gestohlen haben.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1791657",
+   "de": "Ich dachte, ich müsse sterben.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "3541817",
+   "de": "Es ist normal, dass sie sie ermahnten.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "7079128",
+   "de": "Tom und ich, wir haben Angst.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "363937",
+   "de": "Fühlst du dich krank?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1688113",
+   "de": "Ich will deine Antwort bis zum Ende des Tages.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "6619070",
+   "de": "Tom ließ das fallen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "13388385",
+   "de": "Tom und Mary haben gesagt, sie haben jetzt keine Lust, das zu machen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12539637",
+   "de": "Das ist sicherlich ein guter Ratschlag.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "13018956",
+   "de": "Hast du deine Zähne geputzt?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "2435964",
+   "de": "Werde ich das Vergnügen haben, Sie wiederzusehen?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "3533950",
+   "de": "Wie sehr liebst du mich?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "4567937",
+   "de": "Du wirst es sehr mögen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "13998209",
+   "de": "Ich habe als Einziger im Mathetest eine Eins bekommen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "10051409",
+   "de": "Er warf die Pistole in den Fluss.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8661890",
+   "de": "Was machen Tom und Maria heute?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12649874",
+   "de": "Können Sie in den Schuhen springen?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1644172",
+   "de": "Ich freue, dass ich Ihnen jetzt einen wunderbaren Beitrag vorstellen kann.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1599597",
+   "de": "Sie müssen mehr trainieren.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "7061835",
+   "de": "Ich will Ihnen sagen, ich werde morgen nicht hier sein.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12531082",
+   "de": "Ein Bewerbungsschreiben sagt viel über Sie aus.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "13214755",
+   "de": "Willst du mein Freund werden?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "6558894",
+   "de": "Er küsste sie auf die Stirn.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "13835051",
+   "de": "Ich finde euch und trete euch in den Arsch.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "9934709",
+   "de": "Tom hat dir geglaubt.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8396700",
+   "de": "Ohne Brille sieht Tom gar nichts mehr.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "2770871",
+   "de": "Tom und Maria sind schon lange nicht mehr zusammen schwimmen gegangen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12695668",
+   "de": "Hast du gerne einen großen Busen?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "13660122",
+   "de": "Ich dachte, ich habe ein Geräusch gehört.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "10718514",
+   "de": "Mein Satz war falsch, aber die Lehrerin hat ihn korrigiert.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "10841947",
+   "de": "Nur ein Zehntel schaffte es ans andere Ufer.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "5230998",
+   "de": "Das nennst du einen Kuss?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "2996511",
+   "de": "Es erfordert zuweilen mehr Mut, vor dem Gegner zu fliehen, als ihn anzugreifen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "11500478",
+   "de": "Dieser Ölbaum ist sehr alt.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "6606984",
+   "de": "Tom und Mary sahen sich an, dann fingen sie plötzlich an, sich zu küssen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "2031297",
+   "de": "Ich habe vor, diese Idee in die Köpfe der Studenten zu hämmern.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1495173",
+   "de": "Sie haben einen Mann namens Lee Harvey Oswald festgenommen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8788736",
+   "de": "Mein Vater war noch zu Hause, als ich weggegangen bin.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "11933111",
+   "de": "Wie klingt es, wenn man mit nur einer Hand klatscht?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12440884",
+   "de": "Wer hat dir sonst noch geholfen?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8317182",
+   "de": "Das war doch eure Idee, nicht wahr?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12914824",
+   "de": "Sie sollten das letzte Wort haben.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12630833",
+   "de": "Ich habe Tom gesagt, ihr könnt kein Französisch.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "754245",
+   "de": "Mir wurde es schlecht.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "7860253",
+   "de": "Er ist ein viel zu hohes Risiko für die Gemeinschaft.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "518624",
+   "de": "Zweifellos wäre ich traurig, wenn er sterben würde.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "9962203",
+   "de": "Ich glaube Dir klar gemacht zu haben, dass man das nicht so machen darf.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1388458",
+   "de": "Bitte grüßen Sie Ihre Eltern von mir.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "943303",
+   "de": "Der Reispreis ist um mehr als drei Prozent gestiegen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "906522",
+   "de": "Oft packte mich die Verzweiflung.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1660054",
+   "de": "Unsere Meinung scheint richtig zu sein.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "6316741",
+   "de": "Es könnte möglicherweise zu schneien anfangen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8577045",
+   "de": "Sie haben den Abwasch stehen gelassen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "3144204",
+   "de": "Ich kenne einige hochanständige Leute in der Stadt.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "11916484",
+   "de": "Ich rate euch, das im Oktober zu tun.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "441113",
+   "de": "Seit wann lernst du Esperanto?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "2226984",
+   "de": "Das Wort benutzt keiner mehr.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "6634427",
+   "de": "Könntest du mir nicht helfen das zu erledigen?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "13669935",
+   "de": "Zwei plus drei gleich fünf.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "13906291",
+   "de": "Ihr hättet das Buch nicht kaufen müssen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1713182",
+   "de": "Wenn er nicht zur Schule geht, spreche ich nicht mehr mit ihm.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8349003",
+   "de": "Wir müssen das Ende der Kohle einläuten.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "4801201",
+   "de": "Man darf Wein nicht mit der linken Hand einschenken, weil das Unglück bringen kann.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "7586773",
+   "de": "Wir frieren uns den Arsch ab.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "2121058",
+   "de": "Die Kioskbetreiber achten darauf, dass unsere Zeitung gut sichtbar bleibt.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "7919198",
+   "de": "Wenn Tom bei sich zu Hause ist, benutzt er nur Französisch.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12623392",
+   "de": "Lernst du noch fleißig?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "652437",
+   "de": "Das Leben dieses Patienten ist in Gefahr.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "632489",
+   "de": "Sie ist meine Freundin.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "13869164",
+   "de": "Nachdem Karl die Eidechse geküsst hatte, verwandelte sie sich in eine Königin.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "3115319",
+   "de": "Als Tom frühstücken ging, fand er, dass das ganze Brot schimmelig geworden war.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "7456857",
+   "de": "Sagt Tom, er soll nach Boston kommen!",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8965713",
+   "de": "Tom war nicht sehr großzügig.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "10653032",
+   "de": "Er hat sein Leben von Grund auf verändert.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "7069086",
+   "de": "Sind Sie sicher, dass dies stimmt?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1847096",
+   "de": "Bitte erinnere mich daran, das Referat einzureichen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "3182253",
+   "de": "Es ist gerade halb acht.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "10845935",
+   "de": "Dieses Büro ist heute geschlossen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "3532121",
+   "de": "Wann hast du das letzte Mal eine Party gemacht?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "13898380",
+   "de": "Ich fahre zu meiner Schwester, um an einer Hochzeit teilzunehmen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12495618",
+   "de": "Sie griff nach seinem Hut.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8803689",
+   "de": "Tom und Maria lösten ihre Verlobung auf.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "13012564",
+   "de": "Könnt ihr Kerzen machen?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "10826235",
+   "de": "Ich habe dafür nichts getan.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "7479473",
+   "de": "Tom und Maria sagten Johannes, sie glaubten nicht, dass es Elke gutgehe.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "3263679",
+   "de": "Dir geht das Haar aus.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "5018485",
+   "de": "Die Kirche benötigt ein neues Dach.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "2168069",
+   "de": "Das hat noch Zeit.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "13015198",
+   "de": "Habt ihr euch schon überlegt, was ihr tun wollt?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "11914699",
+   "de": "Seine Eltern konnten mich nicht leiden.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "4857837",
+   "de": "Lassen Sie sich nicht mit diesen Leuten ein.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8314733",
+   "de": "Ich bin so einsam.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8684095",
+   "de": "Maria weint sich jede Nacht in den Schlaf.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8809339",
+   "de": "Arzt zu sein, half mir während der Reise sehr.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "11450975",
+   "de": "Ich bin schwanger von meinem Schwager.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "9933229",
+   "de": "Bleib hier heute Nacht.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8193961",
+   "de": "Nur Unzufriedenheit ruft Widerstand hervor.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "3638126",
+   "de": "Dieser Kuchen wird seinem Ruf nicht ganz gerecht.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12362837",
+   "de": "Stecke dein Schwert in die Scheide!",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "652367",
+   "de": "Können Sie mir Ihre Adresse sagen?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "6146967",
+   "de": "Das ist ein alter deutscher Brauch.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "7544861",
+   "de": "Die Zahl, an die ich gedacht habe, ist die Achtzehn.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8072027",
+   "de": "Mein Sohn ist ein Künstler, der Bilder malt.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "441039",
+   "de": "Er fragt nach dir.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8125399",
+   "de": "Seid ihr euch auch sicher, dass das hier eine Abkürzung ist?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1333497",
+   "de": "Was man verstehen gelernt hat, fürchtet man nicht mehr.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "496856",
+   "de": "Niemand konnte ihre Einladung ablehnen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "5062236",
+   "de": "Ich möchte, dass meine Kinder eine doppelte Staatsbürgerschaft haben.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "13916329",
+   "de": "Wir leben jetzt seit zehn Jahren in den USA.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "3456493",
+   "de": "Eine Spiegelwand schafft in einem Raum eine Illusion von Geräumigkeit.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "2437615",
+   "de": "Sie haben sich sehr gefreut, als wir gekommen sind.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12586681",
+   "de": "Ich werde die ganze Zeit bei dir sein.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1982926",
+   "de": "Das Bekannte muss vom Unbekannten getrennt werden.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "963149",
+   "de": "Ich weiß, wie man Auto fährt.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "9962282",
+   "de": "Ich möchte nahe bei Dir sein.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "620480",
+   "de": "Ich kann am nächsten Sonntag auf dem Pferd reiten.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "9353283",
+   "de": "Der Schlüssel passt nicht.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1825925",
+   "de": "Er macht seine Arbeit hervorragend.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "4426652",
+   "de": "Ich kann mich nicht erinnern, dass ich den Brief abgeschickt hätte.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "11151499",
+   "de": "Die Gesprächsrunde war vor allem dadurch gekennzeichnet, dass keiner den anderen ausreden ließ.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1791753",
+   "de": "Ich fühle mich dadurch unwohl.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "2938757",
+   "de": "Willst du noch einen davon?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "731209",
+   "de": "Sie hat das Buch in Papier gepackt.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "13931675",
+   "de": "Bei der letzten Physikprüfung habe ich eine schlechte Note bekommen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "2067406",
+   "de": "Du kannst gehen oder bleiben, wie es dir beliebt.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "6601279",
+   "de": "Meinen Tom und Maria wirklich, dass sie hier die einzigen sind, die Französisch sprechen?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "9781072",
+   "de": "Ich habe kein Geld!",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8091104",
+   "de": "Du weißt wohl nicht, wer ich bin?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8837805",
+   "de": "Heute ist die Regenbogenbrücke nicht rot.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "6144341",
+   "de": "Wenn ich für dich eine Ausnahme mache, werden alle die gleiche Behandlung erwarten.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1966785",
+   "de": "Sie müssen mir gegenüber nicht förmlich sein.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "7876464",
+   "de": "Meine Stiefel sind schmutzig.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "2863542",
+   "de": "Seine Reaktion hat mich sehr erstaunt.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "2591276",
+   "de": "Ich ahnte nicht, dass mein Wunsch wahr werden würde.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "13461747",
+   "de": "Ihr habt mir noch nicht gesagt, wie man das macht.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "6199667",
+   "de": "Ich hatte einen sehr anstrengenden Tag. Und wie geht es dir?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8681454",
+   "de": "Ich konnte es nicht wagen, neben ihm einzuschlafen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12023473",
+   "de": "Tom hat alles ignoriert, was vor sich gegangen ist.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "10320260",
+   "de": "Was, wenn du krank wirst?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "13512079",
+   "de": "Weit entfernt im Nebel ließen sich die Umrisse der Stadt erahnen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "10039953",
+   "de": "Er ist anders als sein jüngerer Bruder.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "4447190",
+   "de": "Ich könnte mir in meinen wildesten Träumen nicht vorstellen, Fell zu tragen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "657124",
+   "de": "Die anderen Mädchen sind eifersüchtig auf Lily, weil sie extrem hübsch ist.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8225082",
+   "de": "Wir können Tom beschützen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1932499",
+   "de": "Der Mann richtete ein Gewehr auf den Polizisten.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12887377",
+   "de": "Trotz deren Bemühungen hat sich nichts geändert.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "4932024",
+   "de": "Tom, du hast einen Anruf!",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "10018878",
+   "de": "Lass das mal meine Sorge sein!",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "400198",
+   "de": "Wir begannen unsere Arbeit mittags.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "13202491",
+   "de": "Wie lange warst du mit Tom zusammen?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "10843987",
+   "de": "Ich habe als Sechsjährige mit dem Singen angefangen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "4000503",
+   "de": "Es gibt keinen Grund zu der Annahme, dass Tom der Mörder ist.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "7464308",
+   "de": "Mir reicht es, wenn ich weiß, dass ich könnte, wenn ich wollte.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "3673114",
+   "de": "Seid ihr beide verrückt?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "3781264",
+   "de": "Nächste Woche wird eine Familie einziehen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "4792114",
+   "de": "Ich habe meine Arbeit abgeschlossen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8497923",
+   "de": "Ich habe heute eine Gehaltserhöhung bekommen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12514761",
+   "de": "Ich habe noch nie gern allein gegessen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "7107341",
+   "de": "Woher hast du denn diese Narbe?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "10153220",
+   "de": "Ich brate nicht gerne Eier, dabei bespritze ich mich immer.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "10246027",
+   "de": "Jetzt hast du dich aber verplappert.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8323613",
+   "de": "Wir spielen ohne dich.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "4751265",
+   "de": "Wir bevorzugen Tee oder Kaffee.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "2789959",
+   "de": "Tom schlug die Bürotür zu.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12621273",
+   "de": "Habt ihr Toms Bilder gesehen?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12711766",
+   "de": "Würdet ihr euch jemals tätowieren lassen?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "4568656",
+   "de": "Lass uns hier warten, bis er zurückkommt.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "10713037",
+   "de": "Es gibt keine Gewinner in Kriegen außer den Spekulanten.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "10808995",
+   "de": "Dorthin fahre ich mit dem Fahrrad.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12009763",
+   "de": "Hunderte von Kindern beteiligten sich.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "2774009",
+   "de": "Wir sahen dort Männer und grüßten sie.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "5416572",
+   "de": "An deiner Stelle würde ich nicht mit ihm reden.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12026064",
+   "de": "Wir sind jetzt beide glücklicher, wo wir geschieden sind.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "9733007",
+   "de": "Plane deine Zukunft. Lerne von gestern. Lebe heute und genieße den Moment.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "13709157",
+   "de": "Können Sie mir Starthilfe geben?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "10494082",
+   "de": "Meine Heimat ist die portugiesische Sprache.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "10834201",
+   "de": "Versuche, dir etwas Neues einfallen zu lassen!",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "13596123",
+   "de": "Jeder für sich, Gott für alle!",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "14038950",
+   "de": "Ein schwacher Vater kann seinem Kind nicht gut helfen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "372993",
+   "de": "Sie sind mit deiner Arbeit zufrieden.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8803704",
+   "de": "Tom und Maria gingen zusammen angeln.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "2763128",
+   "de": "Tom sieht sich im Wohnzimmer einen alten Film an.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1540149",
+   "de": "Jemand hat die Windschutzscheibe meines neuen Autos zerbrochen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "2747761",
+   "de": "Ein Vormittagstermin ist besser für mich.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "10175655",
+   "de": "Tom kann noch gewinnen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "7024910",
+   "de": "Sehen Sie das auch so?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "11213966",
+   "de": "Ich habe eine Frau gefunden, die ich heirate.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "5244006",
+   "de": "Das Internet ist ein Labyrinth.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "9985531",
+   "de": "Er hat Fotos gemacht.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "6042233",
+   "de": "Manchmal wünschte ich, ein Vöglein zu sein.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "2664057",
+   "de": "Tu tätest besser daran, nicht mit Tom darüber zu reden.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12193253",
+   "de": "Könntest du Tom anrufen und ihm sagen, dass wir unterwegs sind?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "13784223",
+   "de": "Das hätte ich selber nicht schöner sagen können.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "4738106",
+   "de": "Tom hätte nicht einmal dort sein sollen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "4677789",
+   "de": "Sie öffnen das Fenster.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "5551418",
+   "de": "Wo Zweifel ist, ist Freiheit.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "7982829",
+   "de": "Außer mir standen alle in Grüppchen von Freunden.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12311910",
+   "de": "Sie war sehr schön gekleidet.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12684340",
+   "de": "Bis morgen hast du Zeit, es zu überlegen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "13707021",
+   "de": "Mein Vater ist beschäftig, wie immer.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "13096889",
+   "de": "Du hast alles nur noch komplizierter gemacht.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "7285902",
+   "de": "Ich mache mir ein Brot.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "2183911",
+   "de": "Vergiss nicht deinen Regenschirm mitzunehmen, wenn du gehst!",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "11940511",
+   "de": "In Japan zieht man die Schuhe aus, wenn man ein Haus betritt.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12198234",
+   "de": "Meine Leute wurden umgebracht.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "3322213",
+   "de": "Kommt ihr aus Europa?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1848729",
+   "de": "Ich bin am Verhungern!",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "3404034",
+   "de": "Ich muss wieder an die Arbeit gehen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "13416245",
+   "de": "Die Polizei schützt die Politiker.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8260629",
+   "de": "Tom hat die Überraschungsfeier verdorben, weil er nicht den Mund halten konnte.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12047600",
+   "de": "Tom und Mary hörten, wie jemand ihre Namen rief.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "4948817",
+   "de": "Es sind Blumen in den Häusern.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "10714080",
+   "de": "Wo seid ihr dran?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "10556051",
+   "de": "Ich habe ein Viertel davon gegessen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "7339954",
+   "de": "Wann sind Tom und Maria das letztemal zusammen essen gegangen?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8931385",
+   "de": "Tom hat den Marathon gewonnen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1344034",
+   "de": "Wann sind Sie zurückgekommen?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "6797181",
+   "de": "Tom kann nicht mehr aufhören zu lachen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8595310",
+   "de": "Tom hat den ganzen Morgen auf uns gewartet.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "11539120",
+   "de": "Bitte nach Ihnen, was die Zeitung angeht!",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8758099",
+   "de": "Meine Freundin ist intelligent, groß und schön.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8129158",
+   "de": "Vor lauter Sorge kann ich keine Nacht mehr schlafen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "10497753",
+   "de": "Das Universum und die Erde werden nicht unbedingt ewig existieren.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1905836",
+   "de": "Bin ich in der Lage, dass Tier aufzuziehen?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12578360",
+   "de": "Was machst du da in meinem Pool?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "2343051",
+   "de": "Interessiert dich die Stelle?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "10033676",
+   "de": "Falls es morgen regnet, wird das Spiel verschoben.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1834680",
+   "de": "Tom hat in Französisch eine Eins bekommen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12525779",
+   "de": "Warum haben Sie nicht geantwortet?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "974740",
+   "de": "Spielt ihr auf mich an?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "7006701",
+   "de": "Man will dich zu einer psychiatrischen Untersuchung zwingen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "398555",
+   "de": "Er wird mich bestimmt bei meinem Chef verpetzen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "10205987",
+   "de": "Ich überlasse es Ihnen umsonst.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "9524124",
+   "de": "Meine Tochter ist krank, wir gehen zum Doktor.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1326559",
+   "de": "Eine Untersuchung hat gezeigt, wie verschmutzt die Flüsse heutzutage sind.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "7374034",
+   "de": "Ich weiß, dass Tom euer Freund ist.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8786331",
+   "de": "Er hat sein Kind bei sich.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "9455861",
+   "de": "Alle hatten große Angst vor Tom.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "13327381",
+   "de": "Die Polizei geht von Selbstmord aus.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "5183176",
+   "de": "Ich habe noch nie schwer arbeiten müssen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12765861",
+   "de": "Ohne einen stabilen Lastträger könnte das Gebäude nicht sicher stehen.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1493402",
+   "de": "Warum hast du hier parkiert?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12635382",
+   "de": "Wo sind die Werkzeuge geblieben, die ich dir geliehen habe?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "13510640",
+   "de": "Diese Briefe sind alle an Sie adressiert.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "4844038",
+   "de": "Warum habt ihr es mitgebracht?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "2917737",
+   "de": "Der Glaube ist zum Ruhen gut, doch bringt er nicht von der Stelle.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1893577",
+   "de": "Ich glaube, ich habe aus Versehen Tom bezichtigt, obwohl es eigentlich Maria war.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "12552791",
+   "de": "Hast du Schokolade gegessen?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "5632213",
+   "de": "Ich hätte nicht gedacht, dass sich Tom in Maria verlieben würde.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "2739231",
+   "de": "Heute habe ich neue Holzschuhe gekauft.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8871561",
+   "de": "Ich versuchte, die Türe zu öffnen, aber ich bekam sie nicht auf.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "8357586",
+   "de": "Meine Trägerhemden sind alle alt.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "778009",
+   "de": "Du kannst nicht hungrig sein. Du hast gerade Mittagessen gehabt.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1713166",
+   "de": "Wie viele Sitzungszimmer gibt es in diesem Gebäude?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "7059006",
+   "de": "Von heute auf morgen, kann Tom das nicht entscheiden.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "1442464",
+   "de": "Wie lange brauchen Sie noch?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "7776589",
+   "de": "Ich hab dir nichts erzählt.",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "2693274",
+   "de": "Wie fühlen sie sich?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "3271674",
+   "de": "Ihr seid beunruhigt, nicht wahr?",
+   "lic": "CC BY 2.0 FR"
+  },
+  {
+   "id": "2379739",
+   "de": "Wir sahen sie, als wir das Haus verließen.",
+   "lic": "CC BY 2.0 FR"
+  }
+ ]
+}

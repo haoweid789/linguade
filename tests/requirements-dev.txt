@@ -1,0 +1,10 @@
+# LinguaDE · 开发/测试依赖（仅本地与 CI 使用，不进入运行时产物）
+#
+# 安装：python -m pip install -r tests/requirements-dev.txt
+# 说明：后端用例（test_auth_api / test_sync_api / test_ai_practice）会 import
+#       backend.app，需要 aiosqlite 等运行时依赖；只装本文件的两个包会在
+#       collection 阶段报 ModuleNotFoundError: aiosqlite。
+-r ../backend/requirements.txt
+
+playwright>=1.40
+pytest>=8.0

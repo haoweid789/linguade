@@ -1,0 +1,12 @@
+# LinguaDE 前端镜像（nginx 托管单文件产物 dist/index.html）
+FROM nginx:alpine
+
+# 默认保留现有 HTTPS 配置；Compose 比赛部署默认传 nginx.http.conf（HTTP 8080，无证书依赖）
+ARG NGINX_CONF=nginx.conf
+
+# 单文件产物即为全部前端（零外部请求）；PWA 三件套随行（http 形态下可安装/离线）
+COPY dist/ /usr/share/nginx/html/
+COPY deploy/manifest.webmanifest deploy/sw.js deploy/icon.svg deploy/icon-maskable.svg deploy/robots.txt /usr/share/nginx/html/
+COPY deploy/${NGINX_CONF} /etc/nginx/conf.d/default.conf
+
+EXPOSE 80

@@ -1,0 +1,87 @@
+# LinguaDE · Git 忽略清单
+
+# 部署产物与密钥（务必不要提交）
+.auto-deploy/
+*.pem
+.env
+.env.local
+
+# 本地工具（便携 terraform 等）
+tools/terraform/
+
+# 内容管线原始语料缓存（Tatoeba / FreeDict / kaikki 等，体积大不入库）
+.content-cache/
+.knowledge-cache/
+
+# 词表富化缓存（构建期产物）
+.lexicon-cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+*.db
+*.sqlite
+*.sqlite3
+
+# 测试
+.pytest_cache/
+tests/_artifacts/
+test-results/
+playwright-report/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 说明：dist/index.html 是交付产物，**纳入版本管理**（离线分发的核心文件）
+# 证书文件（HTTPS）
+*.key
+deploy/certs/*.pem
+
+.demo-account.txt
+
+# TTS 批量生成产物（音频 + manifest，按需重新生成）
+tools/tts-out/
+dist/audio-v2/
+
+# B1 内容管线的往返验证产物（按需重跑 tools/content_export.mjs 生成）
+content/_roundtrip/
+
+# 本地 UI 巡检工具与截图（本机 QA 用，不入库）
+.ux-sim/
+
+# 本地备份与 QA 截图（不入库）
+.lexicon-backup-*/
+.uxfix-backup-*/
+%temp%/
+.ui-preview/qa-*/
+
+# 测试输出残留（并行回归脚本会写这个文件）
+pytest-out.txt
+
+# 隐私/提交材料（含真实个人信息，禁止入库）
+.submission/
+.tmp-*.py
+*.pdf
+
+# 数据库运行态附属文件
+*.db-wal
+*.db-shm
+*.sqlite-wal
+*.sqlite-shm
+
+# 运营/证书脚本（含真实 IP、邮箱，仅本机保留）
+deploy/install-cert.sh
+deploy/renew-cert.sh
+deploy/nginx.conf
+docs/beian-checklist.md
+docs/ops-certificate.md
+docs/german-exam-db-integration.md
+
+# 隔离区（隐私文件移出位置，禁止入库）
+_privacy_quarantine_*/
